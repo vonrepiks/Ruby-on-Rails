@@ -23,6 +23,17 @@ Things you may want to cover:
 
 * ...
 
+To run this app please follow three smple commands:
+
+0. if you use different database form mysql, please take care about this before starting usage of nex commands. Think about gem for database, drivers, install database things on your machine and change config/database.yml to work with your credentials, database drivers and names of databases.
+
+1. $ bundle install
+
+2. $ rake db:create db:migrate
+
+3. $ rails s
+
+
 To build server on Rails is just need three simple commands:
 
 1. $ rails new <app-name>
