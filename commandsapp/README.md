@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+To build server on Rails is just need three simple commands:
+
+1. $ rails new <app-name>
+
+2. $ cd <path-to-project>
+
+3. $ bin/rails server === rails s(with allias)
